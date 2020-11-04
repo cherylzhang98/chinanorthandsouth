@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* CSS Document */
+
+video::-webkit-media-controls {
+    display:none;
+}
+
+body {
+	background-position: center;
+	background-size: cover;
+	background-color: #0E0D0D;
+	background-repeat: no-repeat;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#f8f6f2;;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #0E0D0D;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+	position: fixed;
+	color:#f8f6f2;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.scroll {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: transparent;
+}
+
+.progress-bar {
+  height: 8px;
+  background:#f8f6f2;
+  width: 0%;
+}
+
+
+.header {
+    position: fixed;
+    margin-left: 53%;
+    top: 0;
+    width: 2%;
+	height: 5%;
+    color: #818181;
+    text-align: center;
+	z-index: 3;
+	font-size: 10px;
+}
+
+.footer {
+    position: fixed;
+    margin-left: 53%;
+	bottom: 0;
+    width: 2%;
+    color: #818181;
+    text-align: center;
+	z-index: 3;
+	font-size: 10px;
+}
+
+.grid-container{
+	display: inline-grid;
+    grid-template-columns: 2fr 3fr 1.7fr;
+    grid-row-gap: 13%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+video {
+    width: 90%;
+    height: auto;
+    margin-top: 2%;
+    filter: grayscale(100%);
+	float: right;
+}
+
+video:hover {
+    filter: grayscale(0);
+}
+
+video {
+	pointer-events: auto;
+    cursor: pointer;
+}
+
+.grid-item1 {
+	margin-left: 10%;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1.2;
+	color: #f8f6f2;
+
+}
+
+@font-face {
+	font-family: han;
+	src:url("source-han-serif-1.001R/OTF/SimplifiedChinese/SourceHanSerifSC-Regular.otf");
+}
+
+.grid-item3 {
+	writing-mode: vertical-rl;
+	margin-right: 10%;
+	margin-top: 3%;
+	font-family: han;
+	font-size: 14px;
+	color: #f8f6f2;
+}
+
+.grid-item2 {
+	float: right;
+}
+
+.farmE {
+	margin-top: 67%;
+	margin-right: 12%;
+}
+
+.farm2E {
+	margin-top: 97%;
+	margin-right: 17%;
+}
+
+.zongziE {
+	margin-top: 75%;
+	margin-right: 14%;
+}
+
+.hotpotE {
+	margin-top: 53%;
+	margin-right: 14%;
+}
+
+.punctuation {
+	text-indent: -8px;
+	font-family: url("source-han-serif-1.001R/OTF/SimplifiedChinese/SourceHanSerifSC-Medium.otf");
+	
+}
+
+.title{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+}

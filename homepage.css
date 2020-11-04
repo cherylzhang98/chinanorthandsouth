@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: hanbold;
+	src: url("source-han-serif-1.001R/OTF/SimplifiedChinese/SourceHanSerifSC-SemiBold.otf");
+}
+
+.header {
+    position: fixed;
+    margin-left: 0;
+    top: 3%;
+	left: 6.3%;
+    color: #f8f6f2;
+	z-index: 3;
+	font-size: 10px;
+}
+
+.about {
+	position: fixed;
+    margin-right: 0;
+    top: 3%;
+	right: 6.3%;
+    color: #f8f6f2;
+	z-index: 3;
+	font-size: 10px;
+}
+
+.about:hover {
+	color: #818181;
+}
+
+
+@font-face {
+	font-family: han;
+	src: url("source-han-serif-1.001R/OTF/SimplifiedChinese/SourceHanSerifSC-Regular.otf");
+}
+
+h2 {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.leftimg {
+	height: 10%;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.left {
+  left: 0;
+  background-color: #0E0D0D;
+
+}
+
+.right {
+  right: 0;
+  background-color: #0E0D0D;
+}
+
+.centered {
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	text-align: center;
+	filter: grayscale(100%);
+}
+
+
+
+.leftoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f8f6f2;
+}
+
+.textl{
+	color: #0E0D0D;
+	font-size: 15px;
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: start;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 300;
+	font-style: normal;
+	width: 64%;
+	}
+
+.titleC {
+	text-indent: -9px;
+}
+
+.textlC {
+	font-family: han;
+	writing-mode:vertical-rl;
+}
+.leftimg:hover .leftoverlay {
+  opacity: 1;
+}
+
+.stroke1 {
+	background-color: #ABA98D;
+	width: 300px;
+	height: 1px;
+}
+
+.rightoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#f8f6f2;
+}
+
+.textr{
+	color: #0E0D0D;
+	font-size: 15px;
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: start;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 300;
+	font-style: normal;
+	width: 63%;
+	}
+
+
+.titleC {
+	text-indent: -9px;
+	color: #0E0D0D;
+}
+
+.textrC {
+	font-family: han;
+	writing-mode:vertical-rl;
+	color: #0E0D0D;
+}
+
+.rightimg:hover .rightoverlay {
+  opacity: 1;
+	
+}
+
+.grid-container{
+	display: inline-grid;
+    grid-template-columns: auto;
+	
+	
