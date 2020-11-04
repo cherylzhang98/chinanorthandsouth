@@ -22,7 +22,7 @@ body {
 	color: #818181;
 }
 
-@font-facefontf{
+@font-face {
 	font-family: hanbold;
 	src: url("source-han-serif-1.001R/OTF/SimplifiedChinese/SourceHanSerifSC-Bold.otf");
 	
