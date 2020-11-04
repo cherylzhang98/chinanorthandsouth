@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+@font-face {
+	font-family: hanbold;
+	src: url("source-han-serif-1.001R/OTF/SimplifiedChinese/SourceHanSerifSC-SemiBold.otf");
+}
 
 .header {
     position: fixed;
